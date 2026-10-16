@@ -1,0 +1,92 @@
+body {
+    background-color: #0E0D12;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: #09090E;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.green-circle {
+    background-color: #01DC37;
+    border-radius: 50%;
+}
+
+main {
+    width: 72%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.scanner-area-container {
+    background-color: #16121E;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.scanner-container {
+    width: 248px;
+    height: 248px;
+    border-radius: 50%;
+    background-color: #0B431E;
+}
+
+.action-btns-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+.action-btn {
+    background-color: #16121E;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.card {
+    background-color: #16121E;
+    width: 25%;
+}
+
+.level-state-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.threat-detected-btn button {
+    width: 100%;
+    background-color: #26101A;
+}
+
+footer {
+    background-color: #09090E;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
