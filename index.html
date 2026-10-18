@@ -4,18 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Military Intelligence Mobile App</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <div class="secure">secure online</div>
-      <h1>SIGINT OPS</h1>
       <div class="green-circle">
         <img src="./icons/shield.svg" alt="shield icon" />
+      </div>
+      <h1>SIGINT OPS</h1>
+      <div class="secure">
+        <span>SECURE</span>
+        ONLINE
       </div>
     </header>
     <main>
       <section class="scanner-area-container">
-        <div class="scanner-container"></div>
+        <div class="radar"><div class="sweep"></div></div>
         <div class="alerts-details">
           <p>24</p>
           <p>ACTIVE SIGNALS</p>
@@ -23,7 +27,7 @@
           <p>PRIORITY ALERTS</p>
         </div>
       </section>
-      <section class="btns-container">
+      <section class="action-btns-container">
         <button class="action-btn">
           <img src="./icons/zap.svg" alt="zap icon" />
           New Brief
@@ -40,7 +44,7 @@
 
       <section class="cards-container">
         <article class="card">
-          <div class="leve-state-container">
+          <div class="level-state-container">
             <div class="level">CRITICAL</div>
             <p class="state">In Progress</p>
           </div>
@@ -51,7 +55,7 @@
           </div>
         </article>
         <article class="card">
-          <div class="leve-state-container">
+          <div class="level-state-container">
             <div class="level">HIGH</div>
             <p class="state">Analyzing</p>
           </div>
@@ -63,7 +67,7 @@
         </article>
 
         <article class="card">
-          <div class="leve-state-container">
+          <div class="level-state-container">
             <div class="level">MEDIUM</div>
             <p class="state">Pending</p>
           </div>
@@ -75,7 +79,7 @@
         </article>
 
         <article class="card">
-          <div class="leve-state-container">
+          <div class="level-state-container">
             <div class="level">HIGH</div>
             <p class="state">Active</p>
           </div>
