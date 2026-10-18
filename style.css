@@ -123,17 +123,15 @@ main {
             transparent 49.7%,
             #0e4c42 49.7% 50.3%,
             transparent 50.3%),
-        radial-gradient(circle,
-            #123a22,
-            #07130c);
+        radial-gradient(circle, #11191B, #090D11);
 }
 
 .sweep {
     position: absolute;
-    top: 6.5%;
-    left: 6.5%;
-    width: 43.5%;
-    height: 43.5%;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
 
     border-radius: 100% 0 0 0;
     transform-origin: 100% 100%;
@@ -141,6 +139,45 @@ main {
     background: linear-gradient(45deg,
             transparent 35%,
             rgba(1, 220, 55, 0.5));
+
+    animation: radar-spin 5s linear infinite;
+}
+
+@keyframes radar-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.blip {
+    position: absolute;
+    width: 0.45rem;
+    height: 0.45rem;
+    border-radius: 50%;
+    background-color: #01DC37;
+    box-shadow:
+        0 0 0.35rem rgba(1, 220, 55, 0.8),
+        0 0 0.7rem rgba(1, 220, 55, 0.35);
+    z-index: 2;
+}
+
+.blip-1 {
+    top: 26%;
+    left: 63%;
+}
+
+.blip-2 {
+    top: 48%;
+    left: 34%;
+}
+
+.blip-3 {
+    top: 67%;
+    left: 58%;
 }
 
 .alerts-details {
