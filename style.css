@@ -91,6 +91,10 @@ main {
     padding: 1.5rem;
     gap: 30%;
 
+    border: 1px solid #292637;
+    border-radius: 1rem;
+    box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.3);
+
 }
 
 .radar {
