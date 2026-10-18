@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Military Intelligence Mobile App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="green-circle">
+        <img src="./icons/shield.svg" alt="shield icon" />
+      </div>
+      <h1>SIGINT OPS</h1>
+      <button type="button" class="secure">
+        <span>SECURE</span>
+        ONLINE
+      </button>
+    </header>
+    <main>
+      <section class="scanner-area-container">
+        <div class="radar">
+          <div class="sweep"></div>
+          <div class="blip blip-1"></div>
+          <div class="blip blip-2"></div>
+          <div class="blip blip-3"></div>
+        </div>
+        <div class="alerts-details">
+          <p>24</p>
+          <p>ACTIVE SIGNALS</p>
+          <p>07</p>
+          <p>PRIORITY ALERTS</p>
+        </div>
+      </section>
+      <section class="action-btns-container">
+        <button class="action-btn">
+          <img src="./icons/zap.svg" alt="zap icon" />
+          New Brief
+        </button>
+        <button class="action-btn">
+          <img src="./icons/code.svg" alt="code icon" />
+          Decode
+        </button>
+        <button class="action-btn">
+          <img src="./icons/rocket.svg" alt="rocket icon" />
+          Request Drone
+        </button>
+      </section>
+
+      <section class="cards-container">
+        <article class="card">
+          <div class="level-state-container">
+            <div class="level">CRITICAL</div>
+            <p class="state">In Progress</p>
+          </div>
+          <p>Operation Nightfall</p>
+          <div class="percentage-container">
+            <div class="percentage"></div>
+            <p>65%</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="level-state-container">
+            <div class="level">HIGH</div>
+            <p class="state">Analyzing</p>
+          </div>
+          <p>Signal Intercept Alpha</p>
+          <div class="percentage-container">
+            <div class="percentage"></div>
+            <p>40%</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="level-state-container">
+            <div class="level">MEDIUM</div>
+            <p class="state">Pending</p>
+          </div>
+          <p>Asset Recovery</p>
+          <div class="percentage-container">
+            <div class="percentage"></div>
+            <p>15%</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="level-state-container">
+            <div class="level">HIGH</div>
+            <p class="state">Active</p>
+          </div>
+          <p>Cyber Defense Grid</p>
+          <div class="percentage-container">
+            <div class="percentage"></div>
+            <p>80%</p>
+          </div>
+        </article>
+      </section>
+      <section class="threat-detected-btn">
+        <button>THREAT DETECTED</button>
+      </section>
+    </main>
+    <footer>
+      <nav>
+        <div class="nav-item">
+          <img src="./icons/activity.svg" alt="activity icon" />
+          <p>Dashboard</p>
+        </div>
+
+        <div class="nav-item">
+          <img src="./icons/radio.svg" alt="radio icon" />
+          <p>Feed</p>
+        </div>
+
+        <div class="nav-item">
+          <img src="./icons/file-text.svg" alt="file text icon" />
+          <p>Brief</p>
+        </div>
+
+        <div class="question-mark">?</div>
+      </nav>
+    </footer>
+  </body>
+</html>
